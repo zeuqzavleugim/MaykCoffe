@@ -37,27 +37,27 @@
     </div>
     <br>
     <div>
-        <section class="container-fluid text-white text-center">
-            <ul class="nav">
+        <section class="container-fluid">
+            <ul class="nav" id="opcions">
                 <li class="nav-item">
-                    <a class="nav-link text-light" aria-current="page" href="#1"><p class="h3">Bebidas Calientes</p></a><br>
+                    <a class="nav-link " aria-current="page" href="#uno"><p class="h3" id="opciones">Bebidas Calientes</p></a><br>
                 </li>
                 <br>
                 <li class="nav-item">
-                    <a class="nav-link text-light" aria-current="page" href="#2"><p class="h3">Bebidas frias</p></a><br>
+                    <a class="nav-link " aria-current="page" href="#dos"><p class="h3" id="opciones">Bebidas frias</p></a><br>
                 </li>
                 <br>
                 <li class="nav-item">
-                    <a class="nav-link text-light" aria-current="page" href="#3"><p class="h3">Comida</p></a><br>
+                    <a class="nav-link " aria-current="page" href="#tres"><p class="h3" id="opciones">Comida</p></a><br>
                 </li>
             </ul>
         </section>
     </div>
     <div>
         <section class="container">
-            <h2 class="text-white text-center">Menú</h2>
+            <h2 class="text-center menu">Menú</h2>
             <br>
-            <h4 class="text-white text-center" id="1">Bebidas Calientes</h4>
+            <h4 class="text-center" id="uno">Bebidas Calientes</h4>
             <div class="row">
                 <div class="col-sm-auto">
                     <div class="card container" style="width: 19rem;">
@@ -131,7 +131,7 @@
                 </div>
             </div>
             <br>
-            <h4 class="text-white text-center" id="2">Bebidas frias</h4>
+            <h4 class="text-center" id="dos">Bebidas frias</h4>
             <br>
             <div class="row">
                 <div class="col-sm-auto">
@@ -238,7 +238,7 @@
                 </div>
             </div>
             <br>
-            <h4 class="text-white text-center" id="3">Comida</h4>
+            <h4 class="text-center" id="tres">Comida</h4>
             <br>
             <div class="row">
                 <div class="col-sm-auto">
@@ -297,23 +297,23 @@
         </section>
     </div>
     <div>
-        <footer class="container-fluid text-white">
+        <footer class="container-fluid text-white mt-3">
             <h3 class="text-white">Contacto</h3>
             <nav class="navbar navbar-expand-lg">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0 container-fluid">
-                    <li class="nav-item col-10">
+                    <li class="nav-item col-8">
                         <a class="btn text-white" href="#0">
                             <p class="h4">Cafeteria MaykCoffe</p>
                         </a>
                     </li>
                     <li class="nav-item col">
-                        <button class="btn btn-success" onclick="redirigir('whatsapp')">whatsapp</button>
+                        <button class="btn" onclick="redirigir('whatsapp')"><p id="logos">Whatsapp <img src="logos/logoWhats.png" alt="logoWhats" id="log"></p></button>
                     </li>
                     <li class="nav-item col">
-                        <button class="btn btn-danger" onclick="redirigir('YouTube')">YouTube</button>
+                        <button class="btn" onclick="redirigir('YouTube')"><p id="logos">YouTube <img src="logos/logoYoutube.png" alt="logoYoutube" id="log"></p></button>
                     </li>
                     <li class="nav-item col">
-                        <button class="btn btn-light" onclick="redirigir('instagram')">instagram</button>
+                        <button class="btn" onclick="redirigir('instagram')"><p id="logos">Instagram <img src="logos/logInsta.png" alt="logInsta" id="log"></p></button>
                     </li>
                 </ul>
             </nav>

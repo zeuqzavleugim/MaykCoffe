@@ -1,9 +1,40 @@
 body{
-    background-image: url(img/puestaDeSol.jpg); 
+    background-image: url(img/estadoDelCafe.jpg); 
     background-repeat: no-repeat; 
     background-attachment: fixed; 
     background-size: cover;
 }
 header, footer{
-    background-color: #a37012;
+    background-color: #876445;
+}
+h4, .menu, #uno, #dos, #tres{
+    color: #EEC373;
+    font-size: 5rem;
+}
+p{
+    color: #FFF;
+    font-size: 1rem;
+}
+#datos{
+    color: #EEC373;
+    font-size: 2rem;
+}
+.card{
+    background-color: #CA965C;
+    color: #fff;
+    font-size: 1rem;
+}
+#log{
+    width: 45px;
+}
+#logos{
+    color: #fff;
+    font-size: 1rem;
+}
+#opciones{
+    color: #EEC373;
+    font-size: 2rem;
+}
+*, #opcions, #contactos{
+    text-align: center;
 }
