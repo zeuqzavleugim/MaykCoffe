@@ -9,7 +9,7 @@ header, footer{
 }
 h4, .menu, #uno, #dos, #tres{
     color: #EEC373;
-    font-size: 5rem;
+    font-size: 4rem;
 }
 p{
     color: #FFF;
@@ -34,6 +34,7 @@ p{
 #opciones{
     color: #EEC373;
     font-size: 2rem;
+    text-align: center;
 }
 *, #opcions, #contactos{
     text-align: center;
