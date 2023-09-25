@@ -24,21 +24,21 @@ function pagina(pagina){
     const a0 = document.createElement('a');
     const a1 = document.createElement('a');
     const a2 = document.createElement('a');
+    li0.className = "nav-item";
+    li1.className = "nav-item"; 
+    li2.className = "nav-item";
+    a0.textContent= "MaykCoffe";
+    a0.href = "index.html";
+    a1.textContent = "Quienes Somos";
+    a1.href = "info.html";
+    a2.textContent = "Menú";
+    a2.href = "menu.html";
     switch (pagina){
         case 'indexs':
-            ul.className = "nav justify-content-center nav-tabs";
-            li0.className = "nav-item";
-            li1.className = "nav-item"; 
-            li2.className = "nav-item";
+            ul.className = "nav justify-content-center nav-tabs";        
             a1.className = "nav-link text-white"; 
             a2.className = "nav-link text-white";
             a0.className = "nav-link text-bg-light active";
-            a0.textContent= "MaykCoffe";
-            a0.href = "index.html";
-            a1.textContent = "Quienes Somos";
-            a1.href = "info.html";
-            a2.textContent = "Menú";
-            a2.href = "menu.html";
             li0.appendChild(a0);
             ul.appendChild(li0);
             li1.appendChild(a1);
@@ -49,18 +49,9 @@ function pagina(pagina){
             break;
         case 'infos':
             ul.className = "nav justify-content-center nav-tabs";
-            li0.className = "nav-item";
-            li1.className = "nav-item"; 
-            li2.className = "nav-item";
             a0.className = "nav-link text-white"; 
             a2.className = "nav-link text-white";
             a1.className = "nav-link text-bg-light active";
-            a0.textContent= "MaykCoffe";
-            a0.href = "index.html";
-            a1.textContent = "Quienes Somos";
-            a1.href = "info.html";
-            a2.textContent = "Menú";
-            a2.href = "menu.html";
             li0.appendChild(a0);
             ul.appendChild(li0);
             li1.appendChild(a1);
@@ -71,18 +62,9 @@ function pagina(pagina){
             break;
         case 'menus':
             ul.className = "nav justify-content-center nav-tabs";
-            li0.className = "nav-item";
-            li1.className = "nav-item"; 
-            li2.className = "nav-item"; 
             a0.className = "nav-link text-white"; 
             a1.className = "nav-link text-white";
             a2.className = "nav-link text-bg-light active";
-            a0.textContent= "MaykCoffe";
-            a0.href = "index.html";
-            a1.textContent = "Quienes Somos";
-            a1.href = "info.html";
-            a2.textContent = "Menú";
-            a2.href = "menu.html";
             li0.appendChild(a0);
             ul.appendChild(li0);
             li1.appendChild(a1);
