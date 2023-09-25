@@ -25,7 +25,7 @@ function pagina(pagina){
     const a1 = document.createElement('a');
     const a2 = document.createElement('a');
     switch (pagina){
-        case 'index':
+        case 'indexs':
             ul.className = "nav justify-content-center nav-tabs";
             li0.className = "nav-item";
             li1.className = "nav-item"; 
@@ -47,7 +47,7 @@ function pagina(pagina){
             ul.appendChild(li2);
             div.appendChild(ul);
             break;
-        case 'info':
+        case 'infos':
             ul.className = "nav justify-content-center nav-tabs";
             li0.className = "nav-item";
             li1.className = "nav-item"; 
@@ -69,7 +69,7 @@ function pagina(pagina){
             ul.appendChild(li2);
             div.appendChild(ul);
             break;
-        case 'menu':
+        case 'menus':
             ul.className = "nav justify-content-center nav-tabs";
             li0.className = "nav-item";
             li1.className = "nav-item"; 
