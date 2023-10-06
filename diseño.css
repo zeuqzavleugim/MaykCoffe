@@ -4,24 +4,37 @@ body{
     background-attachment: fixed; 
     background-size: cover;
 }
-header, footer{
-    background-color: #876445;
+.card-body{
+    padding: auto;
 }
-h4, .menu, #uno, #dos, #tres{
-    color: #EEC373;
+#letra{
+    font-size: 20px;
+}
+h2{
+    font-size: 3rem;
+    color:#91684A;
+}
+h1{
     font-size: 4rem;
 }
+header, footer{
+    background-color:#3C2A21;
+}
+h4, .menu, #uno, #dos, #tres{
+    color: #EAAC7F;
+    font-size: 5rem;
+}
 p{
-    color: #FFF;
+    color: #91684A;
     font-size: 1rem;
 }
 #datos{
-    color: #EEC373;
+    color: #EAAC7F;
     font-size: 2rem;
 }
 .card{
-    background-color: #CA965C;
-    color: #fff;
+    background-color: #FFDF91;
+    color: #91684A;
     font-size: 1rem;
 }
 #log{
@@ -29,18 +42,33 @@ p{
 }
 #logos{
     color: #fff;
-    font-size: 1rem;
+    font-size: 1.563rem;
 }
 #opciones{
-    color: #EEC373;
+    color: #EAAC7F;
     font-size: 2rem;
     text-align: center;
 }
 *, #opcions, #contactos{
     text-align: center;
+    font-family:'Oleo Script';
 }
 #mapa{
     width: 380px;
     height: 330px;
     border: 0; 
+}
+#tamaño-card-B-Fria{
+    width: 20rem;
+    height: 51rem;
+}
+#tamaño-card-B-Caliente, #tamaño-card-Comida{
+    width: 20rem;
+    height: 37rem;
+}
+
+@media(1454px < width < 1921px){
+    #row-Card{
+        width: 90rem;
+    }
 }

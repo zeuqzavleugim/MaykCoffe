@@ -33,6 +33,9 @@ function pagina(pagina){
     a1.href = "info.html";
     a2.textContent = "Menú";
     a2.href = "menu.html";
+    a0.id = 'letra';
+    a1.id = 'letra';
+    a2.id = 'letra';
     switch (pagina){
         case 'indexs':
             ul.className = "nav justify-content-center nav-tabs";        
