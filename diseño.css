@@ -16,6 +16,11 @@ h2{
 }
 h1{
     font-size: 4rem;
+    text-shadow:
+    1px 1px 0 #000,
+    -1px 1px 0 #000,
+    -1px -1px 0 #000,
+    1px -1px 0 #000;
 }
 header, footer{
     background-color:#3C2A21;
@@ -33,6 +38,13 @@ p{
     color: #91684A;
     font-size: 1rem;
 }
+#p{
+    text-shadow:
+    1px 1px 0 #000,
+    -1px 1px 0 #000,
+    -1px -1px 0 #000,
+    1px -1px 0 #000;
+}
 #datos{
     color: #EAAC7F;
     font-size: 2rem;
@@ -47,6 +59,9 @@ p{
     color: #91684A;
     font-size: 1rem;
     border-radius: 4rem;
+}
+.col-sm-auto{
+    padding: 7px;
 }
 #log{
     width: 45px;
