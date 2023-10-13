@@ -73,13 +73,17 @@ p{
     }
 }
 .fotos{
+    color: #91684A;
+    font-size: 1.5rem;
     text-shadow:
-    1px 1px 0 #fff,
-    -1px 1px 0 #fff,
-    -1px -1px 0 #fff,
-    1px -1px 0 #fff;
+    1px 1px 0 #000,
+    -1px 1px 0 #000,
+    -1px -1px 0 #000,
+    1px -1px 0 #000;
 }
 .foto{
+    color: #91684A;
+    font-size: 2.5rem;
     text-shadow:
     1px 1px 0 #000,
     -1px 1px 0 #000,
